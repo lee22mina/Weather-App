@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+.bodyy{
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    height: 550x;
+    width: 430px;
+    border-radius: 10px;
+}
+ .sbar{
+    display: flex;
+    flex-direction: row;
+ } 
+#input{
+    background-color: rgba(204, 201, 230, 0.815);
+    margin: 20px ;
+    border-radius: 30px;
+   height: 35px; width:  330px;
+    border: none;
+    outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#search{
+ background-color: rgba(204, 201, 230, 0.815);
+border-radius: 30px;
+border: 0;
+outline: 0;
+cursor: pointer;
+}
+#search img{ 
+    width: 20px;
+    height: auto;
+    }
+.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: white;
+h2{
+    margin-top: 0;
+    padding-top: 0;
+}}
+
+ .col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Optional: adjust alignment as needed */
+    margin-bottom: 20px; /* Add space between columns */
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.details img {
+    justify-content: space-between;
+    width: 40px;
+    height: auto;
+   margin: auto;
+    
+}
+
+.details div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.details p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
